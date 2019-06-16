@@ -147,8 +147,9 @@ li {
     margin: 0;
 }
 
-/* Small screens special settings - iPhone 5/SE */
-@media only screen (max-width: 321px) {
+
+   /* Small screens special settings - max width 414px */
+   @media (max-width: 414px)  {
 
     body { 
         margin: 0;
@@ -167,14 +168,122 @@ li {
     }
 
     .content .logo {
-        height: 140px;
-        width: 140px;
-        margin-left: -40px;
+        height: 160px;
+        width: 160px;
+        margin-left: -60px;   
     }
 
     .content .title {
         font-size: 1.5rem;
-        margin-left: -40px;
+        margin-left: -60px;
+    }
+
+    .content .text {
+        display: none;
+    }
+
+    .grid-3, .grid-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .services div {
+        border-bottom: #ffffff dashed 1px;
+        padding: 1.2rem 1rem;
+        margin-right: 5px;
+    }
+
+    .aboutmeh3 {
+        text-align: center;
+    }
+
+    .aboutmetext {
+        text-align: center;
+        margin-right: 20px;
+    }
+/* Small screens special settings - iPhone 6,7,8 */
+@media (max-width: 375px) {
+
+    body { 
+        margin: 0;
+        color: #ffffff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 105%;
+    }
+
+    .showcase::after {
+        height: 59vh;
+    }
+
+    .content {
+        top: 10%;
+        margin-top: 5px;
+    }
+
+    .content .logo {
+        height: 180px;
+        width: 180px;
+        margin-left: -60px;   
+    }
+
+    .content .title {
+        font-size: 1.5rem;
+        margin-left: -60px;
+    }
+
+    .content .text {
+        display: none;
+    }
+
+    .grid-3, .grid-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .services div {
+        border-bottom: #ffffff dashed 1px;
+        padding: 1.2rem 1rem;
+        margin-right: 5px;
+    }
+
+    .aboutmeh3 {
+        text-align: center;
+        
+    }
+
+    .aboutmetext {
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 30px;
+    }
+
+
+/* Small screens special settings - iPhone 5/SE */
+@media (max-width: 321px) {
+
+    body { 
+        margin: 0;
+        color: #ffffff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 115%;
+    }
+
+    .showcase::after {
+        height: 66vh;
+    }
+
+    .content {
+        top: 10%;
+        margin-top: 5px;
+    }
+
+    .content .logo {
+        height: 200px;
+        width: 200px;
+        margin-left: -20px;
+    }
+
+    .content .title {
+        font-size: 1.8rem;
+        margin-left: -20px;
         
     }
 
@@ -195,113 +304,14 @@ li {
         text-align: center;
     }
 
+   
     .aboutmetext {
         text-align: center;
-    }
-/* Small screens special settings - max width 414px */
-@media (max-width: 414px)  {
-
-    body { 
-        margin: 0;
-        color: #ffffff;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        width: 100%;
+        margin-left: 20px;
     }
 
-    .showcase::after {
-        height: 50vh;
-    }
 
-    .content {
-        top: 10%;
-        margin-top: 5px;
-    }
-
-    .content .logo {
-        height: 160px;
-        width: 160px;
-        margin-left: -60px;   
-    }
-
-    .content .title {
-        font-size: 1.5rem;
-        margin-left: -60px;
-    }
-
-    .content .text {
-        display: none;
-    }
-
-    .grid-3, .grid-2 {
-        grid-template-columns: 1fr;
-    }
-
-    .services div {
-        border-bottom: #ffffff dashed 1px;
-        padding: 1.2rem 1rem;
-        margin-right: 5px;
-    }
-
-    .aboutmeh3 {
-        text-align: center;
-    }
-
-    .aboutmetext {
-        text-align: center;
-    }
-
-/* Small screens special settings - iPhone 6,7,8 */
-@media (max-width: 375px)  {
-
-    body { 
-        margin: 0;
-        color: #ffffff;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        width: 100%;
-    }
-
-    .showcase::after {
-        height: 50vh;
-    }
-
-    .content {
-        top: 10%;
-        margin-top: 5px;
-    }
-
-    .content .logo {
-        height: 160px;
-        width: 160px;
-        margin-left: -60px;   
-    }
-
-    .content .title {
-        font-size: 1.5rem;
-        margin-left: -60px;
-    }
-
-    .content .text {
-        display: none;
-    }
-
-    .grid-3, .grid-2 {
-        grid-template-columns: 1fr;
-    }
-
-    .services div {
-        border-bottom: #ffffff dashed 1px;
-        padding: 1.2rem 1rem;
-        margin-right: 5px;
-    }
-
-    .aboutmeh3 {
-        text-align: center;
-    }
-
-    .aboutmetext {
-        text-align: center;
-    }
-
+ 
 /* End of mobile settings*/
 
 

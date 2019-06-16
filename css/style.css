@@ -1,3 +1,5 @@
+
+
 /* Body settings */
 body { 
     margin: 0;
@@ -145,16 +147,8 @@ li {
     margin: 0;
 }
 
-/* Small screens special settings - max width 1024px */
-@media (max-width: 1024px)  {
-
-    li {
-        display: inline;
-        padding: 1.2rem;
-        float: right;
-        margin-right: 20px;
-        font-size: 1.2rem;
-    }
+/* Small screens special settings - iPhone 5/SE */
+@media only screen (max-width: 321px) {
 
     body { 
         margin: 0;
@@ -164,7 +158,7 @@ li {
     }
 
     .showcase::after {
-        height: 72vh;
+        height: 50vh;
     }
 
     .content {
@@ -173,118 +167,37 @@ li {
     }
 
     .content .logo {
-        height: 300px;
-        width: 500px;
-        margin-left: -120px;   
+        height: 140px;
+        width: 140px;
+        margin-left: -40px;
     }
 
     .content .title {
-        font-size: 3.5rem;
-        width: 800px;
-        margin-left: -260px;
-        padding-bottom: 1.2rem;
-    }
-
-    .content .text {
-        display: true;
-        margin-left: -60px;
         font-size: 1.5rem;
-    }
-
-    .grid-3 {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    ..grid-2 {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .services div {
-        padding: 1.2rem 1rem;
-        margin-right: 5px;
-    }
-
-    .aboutmeh3 {
-        text-align: left;
-        margin-left: -80px;
-        margin-right: 1rem;
-    }
-
-    .aboutmetext {
-        text-align: left;
-        margin-left: -80px;
-        margin-right: 70px;
-    }
-
-/* Small screens special settings - max width 768px */
-@media (max-width: 768px)  {
-
-    li {
-        display: inline;
-        padding: 1.2rem;
-        float: right;
-        margin-right: 10px;
-    }
-
-    body { 
-        margin: 0;
-        color: #ffffff;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        width: 100%;
-    }
-
-    .showcase::after {
-        height: 72vh;
-    }
-
-    .content {
-        top: 10%;
-        margin-top: 5px;
-    }
-
-    .content .logo {
-        height: 320px;
-        width: 320px;
-        margin-left: -60px;   
-    }
-
-    .content .title {
-        font-size: 2.5rem;
-        margin-left: -60px;
-    }
-
-    .content .text {
-        display: true;
-        margin-left: -60px;
-        font-size: 1.2rem;
-    }
-
-    .grid-3, {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    ..grid-2 {
-        grid-template-columns: 1fr 1fr;
+        margin-left: -40px;
         
     }
 
+    .content .text {
+        display: none;
+    }
+
+    .grid-3, .grid-2 {
+        grid-template-columns: 1fr;
+    }
+
     .services div {
+        border-bottom: #ffffff dashed 1px;
         padding: 1.2rem 1rem;
-        margin-right: 5px;
     }
 
     .aboutmeh3 {
-        text-align: left;
-        margin-left: -80px;
-        margin-right: 1rem;
+        text-align: center;
     }
 
     .aboutmetext {
-        text-align: left;
-        margin-left: -80px;
-        margin-right: 70px;
+        text-align: center;
     }
-
 /* Small screens special settings - max width 414px */
 @media (max-width: 414px)  {
 
@@ -389,60 +302,7 @@ li {
         text-align: center;
     }
 
-/* Small screens special settings - iPhone 5/SE */
-@media (max-width: 320px) {
-
-    body { 
-        margin: 0;
-        color: #ffffff;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        width: 110%;
-    }
-
-
-    .showcase::after {
-        height: 50vh;
-    }
-
-    .content {
-        top: 10%;
-        margin-top: 5px;
-    }
-
-    .content .logo {
-        height: 140px;
-        width: 140px;
-        margin-left: -40px;
-        
-    }
-
-    .content .title {
-        font-size: 1.5rem;
-        margin-left: -40px;
-        
-    }
-
-    .content .text {
-        display: none;
-    }
-
-    .grid-3, .grid-2 {
-        grid-template-columns: 1fr;
-    }
-
-    .services div {
-        border-bottom: #ffffff dashed 1px;
-        padding: 1.2rem 1rem;
-    }
-
-    .aboutmeh3 {
-        text-align: center;
-    }
-
-    .aboutmetext {
-        text-align: center;
-    }
-
+/* End of mobile settings*/
 
 
 /* Landscape settings*/

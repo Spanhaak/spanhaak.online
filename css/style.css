@@ -1,10 +1,36 @@
+/* Body settings */
 body { 
     margin: 0;
     color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Navigation */
+.navigation { 
+    background-color: #333;
+    padding: 0.8rem;
+    color: #ffffff
+}
 
+ul { 
+    list-style: none;
+    padding: 0;
+    margin: -10px;
+    text-align: right;
+    width: 100%;
+    height: 20px;
+    padding: 0.5rem;
+    top: 0;
+}
+
+li {
+    display: inline;
+    padding: 1.2rem;
+    float: right;
+    margin: -10px;
+}
+
+/* Showcase back and foreground */
 .showcase .header { 
     margin: 0;
 }
@@ -63,12 +89,12 @@ body {
     margin-top: 1rem;
 }
 
-
+/* Section of the services */
 .container {
     max-width: 960px;
     margin:auto;
     overflow: hidden;
-    padding: 4rem 1rem;
+    padding: 3rem 1rem;
 }
 
 .services {
@@ -81,6 +107,8 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #333;
 }
+
+/* Section about */
 .grid-2 {
     display: grid;
     grid-gap: 20px;
@@ -96,6 +124,13 @@ body {
     color: #333;
 }
 
+.aboutlink {
+    background: #f4f4f4;
+    color: #333;
+    
+}
+
+/* Section footer */
 .bg-dark {
     background-color: #333;
     color: #f4f4f4;
@@ -104,24 +139,273 @@ body {
 
 .footer  {
     padding: 2.2rem;
-    
-    
 }
 
 .footer p {
     margin: 0;
 }
 
-/* Small screens special settings */
+/* Small screens special settings - max width 1024px */
+@media (max-width: 1024px)  {
 
-@media(max-width: 560px) {
+    li {
+        display: inline;
+        padding: 1.2rem;
+        float: right;
+        margin-right: 20px;
+        font-size: 1.2rem;
+    }
+
+    body { 
+        margin: 0;
+        color: #ffffff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 100%;
+    }
+
+    .showcase::after {
+        height: 72vh;
+    }
+
+    .content {
+        top: 10%;
+        margin-top: 5px;
+    }
+
+    .content .logo {
+        height: 300px;
+        width: 500px;
+        margin-left: -120px;   
+    }
+
+    .content .title {
+        font-size: 3.5rem;
+        width: 800px;
+        margin-left: -260px;
+        padding-bottom: 1.2rem;
+    }
+
+    .content .text {
+        display: true;
+        margin-left: -60px;
+        font-size: 1.5rem;
+    }
+
+    .grid-3 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    ..grid-2 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .services div {
+        padding: 1.2rem 1rem;
+        margin-right: 5px;
+    }
+
+    .aboutmeh3 {
+        text-align: left;
+        margin-left: -80px;
+        margin-right: 1rem;
+    }
+
+    .aboutmetext {
+        text-align: left;
+        margin-left: -80px;
+        margin-right: 70px;
+    }
+
+/* Small screens special settings - max width 768px */
+@media (max-width: 768px)  {
+
+    li {
+        display: inline;
+        padding: 1.2rem;
+        float: right;
+        margin-right: 10px;
+    }
+
+    body { 
+        margin: 0;
+        color: #ffffff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 100%;
+    }
+
+    .showcase::after {
+        height: 72vh;
+    }
+
+    .content {
+        top: 10%;
+        margin-top: 5px;
+    }
+
+    .content .logo {
+        height: 320px;
+        width: 320px;
+        margin-left: -60px;   
+    }
+
+    .content .title {
+        font-size: 2.5rem;
+        margin-left: -60px;
+    }
+
+    .content .text {
+        display: true;
+        margin-left: -60px;
+        font-size: 1.2rem;
+    }
+
+    .grid-3, {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    ..grid-2 {
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+    .services div {
+        padding: 1.2rem 1rem;
+        margin-right: 5px;
+    }
+
+    .aboutmeh3 {
+        text-align: left;
+        margin-left: -80px;
+        margin-right: 1rem;
+    }
+
+    .aboutmetext {
+        text-align: left;
+        margin-left: -80px;
+        margin-right: 70px;
+    }
+
+/* Small screens special settings - max width 414px */
+@media (max-width: 414px)  {
+
+    body { 
+        margin: 0;
+        color: #ffffff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 100%;
+    }
 
     .showcase::after {
         height: 50vh;
     }
 
     .content {
-        top: 5%;
+        top: 10%;
+        margin-top: 5px;
+    }
+
+    .content .logo {
+        height: 160px;
+        width: 160px;
+        margin-left: -60px;   
+    }
+
+    .content .title {
+        font-size: 1.5rem;
+        margin-left: -60px;
+    }
+
+    .content .text {
+        display: none;
+    }
+
+    .grid-3, .grid-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .services div {
+        border-bottom: #ffffff dashed 1px;
+        padding: 1.2rem 1rem;
+        margin-right: 5px;
+    }
+
+    .aboutmeh3 {
+        text-align: center;
+    }
+
+    .aboutmetext {
+        text-align: center;
+    }
+
+/* Small screens special settings - iPhone 6,7,8 */
+@media (max-width: 375px)  {
+
+    body { 
+        margin: 0;
+        color: #ffffff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 100%;
+    }
+
+    .showcase::after {
+        height: 50vh;
+    }
+
+    .content {
+        top: 10%;
+        margin-top: 5px;
+    }
+
+    .content .logo {
+        height: 160px;
+        width: 160px;
+        margin-left: -60px;   
+    }
+
+    .content .title {
+        font-size: 1.5rem;
+        margin-left: -60px;
+    }
+
+    .content .text {
+        display: none;
+    }
+
+    .grid-3, .grid-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .services div {
+        border-bottom: #ffffff dashed 1px;
+        padding: 1.2rem 1rem;
+        margin-right: 5px;
+    }
+
+    .aboutmeh3 {
+        text-align: center;
+    }
+
+    .aboutmetext {
+        text-align: center;
+    }
+
+/* Small screens special settings - iPhone 5/SE */
+@media (max-width: 320px) {
+
+    body { 
+        margin: 0;
+        color: #ffffff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 110%;
+    }
+
+
+    .showcase::after {
+        height: 50vh;
+    }
+
+    .content {
+        top: 10%;
         margin-top: 5px;
     }
 
@@ -147,6 +431,28 @@ body {
     }
 
     .services div {
-        border-bottom: #333 dashed 1px;
+        border-bottom: #ffffff dashed 1px;
         padding: 1.2rem 1rem;
     }
+
+    .aboutmeh3 {
+        text-align: center;
+    }
+
+    .aboutmetext {
+        text-align: center;
+    }
+
+
+
+/* Landscape settings*/
+@media (max-height: 500px) {
+    .content .title,
+    .content .text {
+      display: none;
+    }
+  
+    .content {
+      top: 0;
+    }
+  }

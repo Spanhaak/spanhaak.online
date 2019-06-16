@@ -63,8 +63,8 @@ li {
 }
 
 .showcase:hover .content{
-    filter: blur(1px);
-    -webkit-filter:blur(1px);
+    filter: blur(0.5px);
+    -webkit-filter:blur(0.5px);
 }  
 
 .content {

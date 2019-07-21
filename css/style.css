@@ -247,7 +247,7 @@ li {
         grid-template-columns: 1fr;
     }
 
-    .services div {
+    .services .div {
         border-bottom: #ffffff dashed 1px;
         padding: 1.2rem 1rem;
         margin-right: 5px;
@@ -304,7 +304,7 @@ li {
         grid-template-columns: 1fr;
     }
 
-    .services div {
+    .services .div {
         border-bottom: #ffffff dashed 1px;
         padding: 1.2rem 1rem;
     }

@@ -5,15 +5,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.fa-github {
-    color:white;
-    margin-left: 0.5rem;
-}
 
-.fa-linkedin {
-    color:white;
-    margin-left: 1.5rem;
-}
 
 /* Navigation */
 * {

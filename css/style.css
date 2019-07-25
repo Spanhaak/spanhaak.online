@@ -120,8 +120,13 @@ li.nav-item.current {
     }
 }
 
-/* CSS hack for the logo, while using the mobile menu
-
+/* project title */
+.project-title  { 
+   background-color: rgb(98, 142, 223);
+   margin: 0;
+   margin-top: -21px;
+   padding: 0;
+}
 
 
 /* Showcase back and foreground */

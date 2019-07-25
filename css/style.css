@@ -62,7 +62,7 @@ body {
 }
 
 .navbar-links li:hover {
-    background-color: #555;
+    background-color: rgb(98, 142, 223);
 }
 
 li.nav-item.current {
@@ -120,14 +120,85 @@ li.nav-item.current {
     }
 }
 
+
+/* all project */
+.all_project  { 
+    width: 100%;
+ }
+
+
 /* project title */
 .project-title  { 
    background-color: rgb(98, 142, 223);
    margin: 0;
-   margin-top: -21px;
-   padding: 0;
+   padding-top: 1.5rem;
+   padding-bottom: 0.1rem;
 }
 
+/* project sub title */
+.project-sub-title  { 
+    background-color: rgb(98, 142, 223);
+    padding-top: 1rem;
+    padding-bottom: 0.2rem;
+ }
+
+ /* project title main-work */
+.main-work  {
+    padding-left: 2.5rem;
+    font-size: 2.5rem; 
+    color: #333;
+ }
+
+  /* project title sub heading */
+.sm-heading  {
+    padding-left: 2.5rem;
+    font-size: 1.5rem; 
+    color: white;
+ }
+
+ /* projects */
+ .projects {
+     display: grid;
+     grid-gap: 0.7rem;
+     grid-template-columns: 1fr 1fr 1fr;
+     
+} 
+
+ /* projects images */
+ .proj-img {
+     border: 3px #fff solid;
+} 
+
+ /* projects item */
+ .item {
+    width: 100%;
+} 
+/* projects images hover effect */
+.proj-img:hover {
+    opacity: 0.5;
+    border-color: #eece1a;
+    transition: all 0.5s ease-out; 
+    
+}
+
+/* projectsbutton */
+.btn, .btn-dark, .btn-light {
+    display: block;
+    padding: 0.5rem 1rem;
+    border: 0;
+    margin-bottom: 0.3rem; }
+.btn:hover, .btn-dark:hover, .btn-light:hover {
+    background: #eece1a;
+    color: #000; 
+}
+
+.btn-dark {
+    background: black;
+    color: #fff; }
+      
+.btn-light {
+    background: #c4c4c4;
+    color: #333; }
 
 /* Showcase back and foreground */
 .showcase .header { 

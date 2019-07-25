@@ -160,8 +160,8 @@ li.nav-item.current {
  .projects {
      display: grid;
      grid-gap: 0.7rem;
+     -ms-grid-column-align: center;
      grid-template-columns: 1fr 1fr 1fr;
-     
 } 
 
  /* projects images */
@@ -169,10 +169,7 @@ li.nav-item.current {
      border: 3px #fff solid;
 } 
 
- /* projects item */
- .item {
-    width: 100%;
-} 
+ 
 /* projects images hover effect */
 .proj-img:hover {
     opacity: 0.5;

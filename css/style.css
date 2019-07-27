@@ -156,17 +156,25 @@ li.nav-item.current {
     color: white;
  }
 
+/* projects-container */
+  .projects-container {
+    background-color: rgb(98, 142, 223);
+    
+} 
  /* projects */
  .projects {
-     display: grid;
-     grid-gap: 0.7rem;
-     -ms-grid-column-align: center;
-     grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1.5rem;
+    background-color: rgb(132, 135, 142);
 } 
 
  /* projects images */
  .proj-img {
-     border: 3px #fff solid;
+    border: 3px #fff solid;
+    width: 95%;   
+    margin-left: 13px;   
 } 
 
  
@@ -175,27 +183,32 @@ li.nav-item.current {
     opacity: 0.5;
     border-color: #eece1a;
     transition: all 0.5s ease-out; 
-    
 }
 
 /* projectsbutton */
 .btn, .btn-dark, .btn-light {
-    display: block;
+    display: inline-block;
     padding: 0.5rem 1rem;
     border: 0;
-    margin-bottom: 0.3rem; }
+    margin-bottom: 0.3rem; 
+    margin-left: 13px;
+}
+
 .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #eece1a;
     color: #000; 
 }
 
 .btn-dark {
-    background: black;
-    color: #fff; }
+    background: #333;
+    color: #fff; 
+}
       
 .btn-light {
     background: #c4c4c4;
-    color: #333; }
+    color: #333; 
+}
+
 
 /* Showcase back and foreground */
 .showcase .header { 

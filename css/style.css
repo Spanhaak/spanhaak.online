@@ -313,7 +313,7 @@ li.nav-item.current {
 
  /* projects images */
  .proj-img {
-    border: 3px #fff solid;
+    border: 4px #333 solid;
     width: 100%;     
 } 
 

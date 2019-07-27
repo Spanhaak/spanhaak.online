@@ -9,7 +9,7 @@ body {
 
 .fa-github {
     color:white;
-    margin-left: 0.5rem;
+   
 }
 
 .fa-linkedin {
@@ -241,7 +241,7 @@ li.nav-item.current {
 
 /* projectsbutton */
 .btn, .btn-dark, .btn-light {
-    display: inline-block;
+    display: block;
     padding: 0.5rem 1rem;
     border: 0; 
 }
@@ -249,19 +249,18 @@ li.nav-item.current {
 .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: rgb(98, 142, 223);
     color: #000; 
-    justify-content: center;
 }
 
 .btn-dark {
     background: #333;
     color: #fff;
-    justify-content: center;
+    text-align: center;
 }
       
 .btn-light {
     background: #c4c4c4;
     color: #333; 
-    justify-content: center;
+    text-align: center;
 }
 
 a.btn-light {

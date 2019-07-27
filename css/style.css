@@ -206,6 +206,14 @@ li.nav-item.current {
     width:100%;
 
 } 
+
+/* projects-item */
+.project-item {
+    text-align: center;
+    color: rgb(226, 226, 237);
+    width:100%;
+
+} 
  /* projects */
  .projects {
     width: 90%;
@@ -241,18 +249,19 @@ li.nav-item.current {
 .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: rgb(98, 142, 223);
     color: #000; 
+    justify-content: center;
 }
 
 .btn-dark {
     background: #333;
     color: #fff;
+    justify-content: center;
 }
-
-
       
 .btn-light {
     background: #c4c4c4;
     color: #333; 
+    justify-content: center;
 }
 
 a.btn-light {

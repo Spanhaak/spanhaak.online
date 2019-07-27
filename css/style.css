@@ -472,87 +472,6 @@ a.btn-dark {
     margin: 0;
 }
 
-/* Small screens special settings - max width 767px */
-@media (max-width: 767px)  {
-
-    /* boxes */
-    .contact-header { 
-       grid-template-columns: 1fr;
-       justify-content: center;
-       font-size: 1.0rem;
-    }
-   .boxes div {
-       font-size: 1rem;
-       border: 3px #fff solid;
-       padding: 1.0rem 2.0rem;
-       margin-bottom: 3rem;
-       transition: all 0.5s ease-out; }
-   .boxes div:hover {
-       padding: 0.5rem 1.0rem;
-       background: #eece1a;
-       color: #000; }
-   .boxes div:hover span {
-       color: #000; }
-   
-       body { 
-           margin: 0;
-           color: #ffffff;
-           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-           width: 100%;
-       }
-   
-       .showcase::after {
-           height: 50vh;
-       }
-   
-       .content {
-           top: 10%;
-           margin-top: 5px;
-       }
-   
-       .content .logo {
-           height: 160px;
-           width: 160px;
-           margin-left: -60px;   
-       }
-   
-       .content .title {
-           font-size: 1.5rem;
-           margin-left: -60px;
-       }
-   
-       .content .text {
-           display: none;
-       }
-   
-       .grid-3, .grid-2 {
-           grid-template-columns: 1fr;
-       }
-   
-       .services div {
-           border-bottom: #ffffff dashed 1px;
-           padding: 1.2rem 1rem;
-           margin-right: 5px;
-       }
-   
-       .aboutmeh3 {
-           text-align: center;
-       }
-   
-       .aboutmetext {
-           text-align: center;
-           margin-right: 20px;
-       }
-   
-       .projects {
-           width: 90%;
-           display: grid;
-           grid-template-columns: 1fr;
-           grid-row-gap: 1rem;
-           grid-column-gap: 1.5rem;
-           background-color: rgb(132, 135, 142);
-           margin: auto;
-       } 
 
 /* Small screens special settings - max width 414px */
 @media (max-width: 414px)  {
@@ -720,6 +639,87 @@ a.btn-dark {
         margin-right: 30px;
     }
 
+/* Small screens special settings - max width 360px */
+@media (max-width: 360px)  {
+
+    /* boxes */
+    .contact-header { 
+       grid-template-columns: 1fr;
+       justify-content: center;
+       font-size: 1.0rem;
+    }
+   .boxes div {
+       font-size: 1rem;
+       border: 3px #fff solid;
+       padding: 1.0rem 2.0rem;
+       margin-bottom: 3rem;
+       transition: all 0.5s ease-out; }
+   .boxes div:hover {
+       padding: 0.5rem 1.0rem;
+       background: #eece1a;
+       color: #000; }
+   .boxes div:hover span {
+       color: #000; }
+   
+       body { 
+           margin: 0;
+           color: #ffffff;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           width: 100%;
+       }
+   
+       .showcase::after {
+           height: 50vh;
+       }
+   
+       .content {
+           top: 10%;
+           margin-top: 5px;
+       }
+   
+       .content .logo {
+           height: 160px;
+           width: 160px;
+           margin-left: -60px;   
+       }
+   
+       .content .title {
+           font-size: 1.5rem;
+           margin-left: -60px;
+       }
+   
+       .content .text {
+           display: none;
+       }
+   
+       .grid-3, .grid-2 {
+           grid-template-columns: 1fr;
+       }
+   
+       .services div {
+           border-bottom: #ffffff dashed 1px;
+           padding: 1.2rem 1rem;
+           margin-right: 5px;
+       }
+   
+       .aboutmeh3 {
+           text-align: center;
+       }
+   
+       .aboutmetext {
+           text-align: center;
+           margin-right: 20px;
+       }
+   
+       .projects {
+           width: 90%;
+           display: grid;
+           grid-template-columns: 1fr;
+           grid-row-gap: 1rem;
+           grid-column-gap: 1.5rem;
+           background-color: rgb(132, 135, 142);
+           margin: auto;
+       } 
 
 /* Small screens special settings - iPhone 5/SE */
 @media (max-width: 321px) {

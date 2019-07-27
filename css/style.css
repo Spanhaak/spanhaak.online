@@ -155,7 +155,59 @@ li.nav-item.current {
 
 
 
+
+
 /* End CSS about.html */
+
+/* Start CSS contact.html */
+
+.contact-container{ 
+    background-color: rgb(98, 142, 223);
+    margin: 0;
+    padding-top: 1.5rem;
+    padding-bottom: 0.1rem;
+    padding-left: 3rem;
+ }
+
+/* about header */
+.contact-header { 
+    background-color: rgb(98, 142, 223);
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    justify-content: center;
+    font-size: 1.2rem;
+ }
+ 
+/* part1 */
+.contact-header-part1 {
+    color: #333;
+}
+ /* part2 */
+.contact-header-part2 {
+     color: rgb(226, 226, 237);
+ }
+
+ /* boxes */
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem; }
+.boxes div {
+    font-size: 2rem;
+    border: 3px #fff solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    transition: all 0.5s ease-out; }
+.boxes div:hover {
+    padding: 0.5rem 1.5rem;
+    background: #eece1a;
+    color: #000; }
+.boxes div:hover span {
+    color: #000; }
+
+/* End CSS contact.html */
 
 /* main-work-p */
 .main-work-p { 

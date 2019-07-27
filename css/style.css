@@ -195,18 +195,28 @@ li.nav-item.current {
 }
 
 .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #eece1a;
+    background: rgb(98, 142, 223);
     color: #000; 
 }
 
 .btn-dark {
     background: #333;
-    color: #fff; 
+    color: #fff;
+    
 }
+
+
       
 .btn-light {
     background: #c4c4c4;
     color: #333; 
+}
+
+a.btn-light {
+        text-decoration: none;
+}
+a.btn-dark {
+    text-decoration: none;
 }
 
 

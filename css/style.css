@@ -122,11 +122,31 @@ li.nav-item.current {
     }
 }
 
+/* main-work-p */
+.main-work-p { 
+    width: 100%;
+    padding-left: 2.5rem;
+ }
 
 /* all project */
 .all_project  { 
     width: 100%;
  }
+
+/* ul projects */
+.ul-projects { 
+    padding-left: 2.5rem;
+    list-style: none;
+
+}
+
+
+/* ul projects icons */
+#icons { 
+    color:rgb(37, 247, 37);
+
+}
+
 
 
 /* project title */

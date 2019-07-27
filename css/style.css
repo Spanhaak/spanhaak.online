@@ -164,12 +164,33 @@ li.nav-item.current {
     padding-bottom: 0.2rem;
  }
 
+
+/* project-title-header */
+.project-title-header  {
+    display:grid;
+    grid-template-columns: 70px 1fr;
+}
+
+/* part2 */
+.part2 {
+    margin-left: 10px;
+}
+
+
+
  /* project title main-work */
 .main-work  {
     padding-left: 2.5rem;
     font-size: 2.5rem; 
     color: #333;
  }
+
+ /* project title main-work-projects */
+.main-work-projects  {
+    padding-left: 2.5rem;
+    font-size: 2.5rem; 
+    color: rgb(88, 88, 89);
+}
 
   /* project title sub heading */
 .sm-heading  {

@@ -9,7 +9,6 @@ body {
 
 .fa-github {
     color:white;
-   
 }
 
 .fa-linkedin {
@@ -122,6 +121,39 @@ li.nav-item.current {
     }
 }
 
+/* Start CSS about.html */
+.about-container{ 
+    background-color: rgb(98, 142, 223);
+    margin: 0;
+    padding-top: 1.5rem;
+    padding-bottom: 0.1rem;
+    padding-left: 3rem;
+ }
+
+/* about header */
+.about-header { 
+    background-color: rgb(98, 142, 223);
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    justify-content: center;
+    font-size: 1.2rem;
+ }
+ 
+/* part1 */
+  .about-header-part1 {
+    color: #333;
+}
+ /* part2 */
+ .about-header-part2 {
+     color: rgb(226, 226, 237);
+ }
+
+
+
+
+
+/* End CSS about.html */
+
 /* main-work-p */
 .main-work-p { 
     width: 100%;
@@ -144,7 +176,6 @@ li.nav-item.current {
 /* ul projects icons */
 #icons { 
     color:rgb(37, 247, 37);
-
 }
 
 

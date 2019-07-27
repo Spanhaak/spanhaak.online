@@ -197,6 +197,7 @@ li.nav-item.current {
     padding-left: 2.5rem;
     font-size: 1.5rem; 
     color: white;
+    padding-bottom: 2rem;
 }
 
 /* projects-container */

@@ -378,6 +378,16 @@ li.nav-item.current {
         text-align: center;
         margin-right: 20px;
     }
+
+    .projects {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 1rem;
+        grid-column-gap: 1.5rem;
+        background-color: rgb(132, 135, 142);
+        margin: auto;
+    } 
 /* Small screens special settings - iPhone 6,7,8 */
 @media (max-width: 375px) {
 
@@ -388,6 +398,15 @@ li.nav-item.current {
         width: 105%;
     }
 
+    .projects {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 1rem;
+        grid-column-gap: 1.5rem;
+        background-color: rgb(132, 135, 142);
+        margin: auto;
+    } 
     .showcase::after {
         height: 59vh;
     }
@@ -443,7 +462,15 @@ li.nav-item.current {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         width: 115%;
     }
-
+    .projects {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 1rem;
+        grid-column-gap: 1.5rem;
+        background-color: rgb(132, 135, 142);
+        margin: auto;
+    } 
     .showcase::after {
         height: 66vh;
     }

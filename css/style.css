@@ -168,7 +168,7 @@ li.nav-item.current {
 /* project-title-header */
 .project-title-header  {
     display:grid;
-    grid-template-columns: 70px 1fr;
+    grid-template-columns: 63px 1fr;
 }
 
 /* part2 */

@@ -148,7 +148,10 @@ li.nav-item.current {
      color: rgb(226, 226, 237);
  }
 
-
+ /* boxes */
+ .boxes {
+    color: rgb(226, 226, 237);
+}
 
 
 

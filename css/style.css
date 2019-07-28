@@ -579,8 +579,11 @@ a.btn-dark {
         color: white;  
     }
     .pds-iframe { 
-        width: 95%
+        width: 95%;
         
+    }
+    .pds-background { 
+        padding-right: 1rem; 
     }
 
     .pds-container-content  { 
@@ -677,8 +680,11 @@ a.btn-dark {
 /* Small screens special settings - iPhone 6,7,8 */
 @media (max-width: 375px) {
     .pds-iframe { 
-        width: 95%
+        width: 95%;
         
+    }
+    .pds-background { 
+        padding-right: 1rem; 
     }
        .about-header { 
         grid-template-columns: 150px 60px;
@@ -786,8 +792,7 @@ a.btn-dark {
         
     }
     .pds-background { 
-        padding-right: 1rem;
-        
+        padding-right: 1rem; 
     }
     .about-header { 
         grid-template-columns: 150px 60px;
@@ -888,8 +893,11 @@ a.btn-dark {
 /* Small screens special settings - iPhone 5/SE */
 @media (max-width: 321px) {
     .pds-iframe { 
-        width: 95%
+        width: 95%;
         
+    }
+    .pds-background { 
+        padding-right: 1rem; 
     }
     .about-header { 
         grid-template-columns: 150px 60px;

@@ -779,10 +779,14 @@ a.btn-dark {
         margin-right: 30px;
     }
 
-/* Small screens special settings - max width 360px */
+/* Small screens SAMSUNG GALAXY S9 special settings - max width 360px */
 @media (max-width: 360px)  {
     .pds-iframe { 
-        width: 95%
+        width: 95%;
+        
+    }
+    .pds-background { 
+        padding-right: 1rem;
         
     }
     .about-header { 

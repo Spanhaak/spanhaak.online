@@ -531,7 +531,10 @@ a.btn-dark {
 
 /* Small screens special settings - max width 414px */
 @media (max-width: 414px)  {
-
+    #no-link-icons {
+        text-decoration: none;
+        color: white;  
+    }
 
  /* boxes */
  .contact-header { 
@@ -613,7 +616,10 @@ a.btn-dark {
     } 
 /* Small screens special settings - iPhone 6,7,8 */
 @media (max-width: 375px) {
-
+    #no-link-icons {
+        text-decoration: none;
+        color: white;  
+    }
      /* boxes */
      .contact-header { 
         grid-template-columns: 1fr;
@@ -697,7 +703,10 @@ a.btn-dark {
 
 /* Small screens special settings - max width 360px */
 @media (max-width: 360px)  {
-
+    #no-link-icons {
+        text-decoration: none;
+        color: white;  
+    }
     /* boxes */
     .contact-header { 
        grid-template-columns: 1fr;
@@ -779,7 +788,10 @@ a.btn-dark {
 
 /* Small screens special settings - iPhone 5/SE */
 @media (max-width: 321px) {
-
+    #no-link-icons {
+        text-decoration: none;
+        color: white;  
+    }
     .contact-header { 
         grid-template-columns: 1fr;
         justify-content: center;
@@ -870,7 +882,10 @@ a.btn-dark {
     .content .text {
       display: none;
     }
-  
+    #no-link-icons {
+        text-decoration: none;
+        color: white;  
+    }
     .content {
       top: 0;
     }

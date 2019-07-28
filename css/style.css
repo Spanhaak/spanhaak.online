@@ -249,6 +249,7 @@ li.nav-item.current {
 
 
 
+
 /* Stop CSS project description slackbot */
 
 
@@ -577,7 +578,10 @@ a.btn-dark {
         text-decoration: none;
         color: white;  
     }
-
+    .pds-iframe { 
+        width: 80%
+        
+    }
 
     .pds-container-content  { 
         display: grid;
@@ -672,7 +676,11 @@ a.btn-dark {
     } 
 /* Small screens special settings - iPhone 6,7,8 */
 @media (max-width: 375px) {
-    .about-header { 
+    .pds-iframe { 
+        width: 80%
+        
+    }
+       .about-header { 
         grid-template-columns: 150px 60px;
         font-size: 1.0rem;
         align-content: center;
@@ -773,6 +781,10 @@ a.btn-dark {
 
 /* Small screens special settings - max width 360px */
 @media (max-width: 360px)  {
+    .pds-iframe { 
+        width: 80%
+        
+    }
     .about-header { 
         grid-template-columns: 150px 60px;
         font-size: 1.0rem;
@@ -871,6 +883,10 @@ a.btn-dark {
 
 /* Small screens special settings - iPhone 5/SE */
 @media (max-width: 321px) {
+    .pds-iframe { 
+        width: 80%
+        
+    }
     .about-header { 
         grid-template-columns: 150px 60px;
         font-size: 1.0rem;

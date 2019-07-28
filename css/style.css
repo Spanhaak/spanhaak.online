@@ -577,6 +577,12 @@ a.btn-dark {
         color: white;  
     }
 
+
+    .pds-container-content  { 
+        display: grid;
+        grid-template-columns: 1fr;
+    }    
+    
  /* boxes */
  .contact-header { 
     grid-template-columns: 1fr;
@@ -657,6 +663,12 @@ a.btn-dark {
     } 
 /* Small screens special settings - iPhone 6,7,8 */
 @media (max-width: 375px) {
+   
+    .pds-container-content  { 
+        display: grid;
+        grid-template-columns: 1fr;
+    }  
+   
     #no-link-icons {
         text-decoration: none;
         color: white;  
@@ -744,6 +756,11 @@ a.btn-dark {
 
 /* Small screens special settings - max width 360px */
 @media (max-width: 360px)  {
+    
+    .pds-container-content  { 
+        display: grid;
+        grid-template-columns: 1fr;
+    }  
     #no-link-icons {
         text-decoration: none;
         color: white;  
@@ -829,6 +846,11 @@ a.btn-dark {
 
 /* Small screens special settings - iPhone 5/SE */
 @media (max-width: 321px) {
+    
+    .pds-container-content  { 
+        display: grid;
+        grid-template-columns: 1fr;
+    }  
     #no-link-icons {
         text-decoration: none;
         color: white;  

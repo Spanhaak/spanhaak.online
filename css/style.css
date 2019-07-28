@@ -131,6 +131,8 @@ li.nav-item.current {
     grid-template-columns: 200px 1fr;
     grid-gap: 5rem;
  }
+
+ 
 .passphoto-round{ 
     background-color: rgb(98, 142, 223);
     margin: 0;
@@ -582,7 +584,9 @@ a.btn-dark {
         display: grid;
         grid-template-columns: 1fr;
     }    
-    
+    .about-grid{ 
+        grid-template-columns: 1fr;
+     }   
  /* boxes */
  .contact-header { 
     grid-template-columns: 1fr;
@@ -663,7 +667,9 @@ a.btn-dark {
     } 
 /* Small screens special settings - iPhone 6,7,8 */
 @media (max-width: 375px) {
-   
+    .about-grid{ 
+        grid-template-columns: 1fr;
+     }   
     .pds-container-content  { 
         display: grid;
         grid-template-columns: 1fr;
@@ -756,7 +762,9 @@ a.btn-dark {
 
 /* Small screens special settings - max width 360px */
 @media (max-width: 360px)  {
-    
+    .about-grid{ 
+        grid-template-columns: 1fr;
+     }   
     .pds-container-content  { 
         display: grid;
         grid-template-columns: 1fr;
@@ -846,7 +854,9 @@ a.btn-dark {
 
 /* Small screens special settings - iPhone 5/SE */
 @media (max-width: 321px) {
-    
+    .about-grid{ 
+        grid-template-columns: 1fr;
+     }   
     .pds-container-content  { 
         display: grid;
         grid-template-columns: 1fr;

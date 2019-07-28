@@ -192,6 +192,18 @@ li.nav-item.current {
     color: rgb(226, 226, 237);
 }
 
+.links-about{
+        font-weight: bold;
+        color: #333;
+        text-align: center; 
+        text-decoration: none;
+        display: inline-block;
+      }
+      
+      a:hover, a:active {
+        background-color: rgb(226, 226, 237);
+      }
+
 
 
 
@@ -473,6 +485,16 @@ a.btn-dark {
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #333;
 }
+
+#no-link-icons {
+    text-decoration: none;
+    color: white;  
+}
+
+.fas-fa-briefcase:hover {
+    text-decoration: none;
+    color: #eece1a;
+  }
 
 /* Section about */
 .grid-2 {

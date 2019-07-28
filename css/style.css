@@ -491,11 +491,6 @@ a.btn-dark {
     color: white;  
 }
 
-.fas-fa-briefcase:hover {
-    text-decoration: none;
-    color: #eece1a;
-  }
-
 /* Section about */
 .grid-2 {
     display: grid;

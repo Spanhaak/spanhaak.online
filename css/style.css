@@ -796,8 +796,8 @@ a.btn-dark {
 @media (max-width: 360px)  {
     .pds-container-content { 
         width: 360px;
-        padding-left:0.5rem;
-        padding-right:0.5rem;
+        padding-left:2rem;
+        padding-right:1rem;
     }
     .pds-iframe { 
         width: 95%;

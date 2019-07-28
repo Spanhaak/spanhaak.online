@@ -175,8 +175,7 @@ li.nav-item.current {
 .about-header { 
     background-color: rgb(98, 142, 223);
     display: grid;
-    grid-template-columns: 150px 1fr;
-    justify-content: center;
+    grid-template-columns: 150px 60px;
     font-size: 1.2rem;
  }
  

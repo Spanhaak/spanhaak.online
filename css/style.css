@@ -529,7 +529,8 @@ a.btn-dark {
     background-color: #333;
 }
 
-#no-link-icons {
+
+.no-link-icons {
     text-decoration: none;
     color: white;  
 }
@@ -574,7 +575,7 @@ a.btn-dark {
 
 /* Small screens special settings - max width 414px */
 @media (max-width: 414px)  {
-    #no-link-icons {
+    .no-link-icons {
         text-decoration: none;
         color: white;  
     }
@@ -725,7 +726,7 @@ a.btn-dark {
         grid-template-columns: 1fr;
     }  
    
-    #no-link-icons {
+    .no-link-icons {
         text-decoration: none;
         color: white;  
     }
@@ -844,7 +845,7 @@ a.btn-dark {
         display: grid;
         grid-template-columns: 1fr;
     }  
-    #no-link-icons {
+    .no-link-icons {
         text-decoration: none;
         color: white;  
     }
@@ -965,7 +966,7 @@ a.btn-dark {
         display: grid;
         grid-template-columns: 1fr;
     }  
-    #no-link-icons {
+    .no-link-icons {
         text-decoration: none;
         color: white;  
     }
@@ -1069,7 +1070,7 @@ a.btn-dark {
     .content .text {
       display: none;
     }
-    #no-link-icons {
+    .no-link-icons {
         text-decoration: none;
         color: white;  
     }

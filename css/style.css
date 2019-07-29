@@ -501,12 +501,13 @@ a.btn-dark {
 }
 
 .content .title {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     margin-top: 1rem;
 }
 
 .content .text {
     line-height: 1.7;
+    font-size: 1.2rem;
     margin-top: 1rem;
 }
 

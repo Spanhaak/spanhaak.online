@@ -257,6 +257,54 @@ li.nav-item.current {
 
 /* Stop CSS project description slackbot */
 
+/* Start CSS project dynamic landing page */
+.pdl-header-container   { 
+    background-color: rgb(98, 142, 223);
+    padding-top: 1rem;
+}
+.pdl-header   { 
+    color: #333;
+    padding-left: 2rem;
+}
+.pdl-subheader   { 
+    color: rgb(226, 226, 237);
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+.pdl-container-content  { 
+    background-color: rgb(226, 226, 237);
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.pdl-background  { 
+    color: #333;
+    font-weight: bold;
+}
+.pdl-content-left  { 
+    color: #333;
+    
+}
+.pdl-content-right  { 
+    color: #333;
+    padding-left: 1rem;
+    
+}
+.pdl-tech { 
+    list-style: none;
+    padding-left: 0.1rem;
+    
+}
+.pdl-pdso { 
+    border: #000 ;
+    border:5px solid;
+    
+}
+
+
+/* Stop CSS project description dynamic landing page */
 
 /* Start CSS contact.html */
 

@@ -7,6 +7,10 @@ body {
     overflow-y:visible
 }
 
+.pdso-background {
+    color: #333333;
+}
+
 .fa-github {
     color:white;
 }
@@ -249,10 +253,6 @@ li.nav-item.current {
     border:5px solid;
     
 }
-
-
-
-
 
 
 /* Stop CSS project description slackbot */
@@ -589,6 +589,13 @@ a.btn-dark {
         width: 95%;
         
     }
+    .pds-content-leftso { 
+        padding-right:2rem;
+        color: #333;
+    }
+    .pds-background-so { 
+        padding-right: 5rem; 
+    }
     .pds-container-content { 
         width: 414px;
         padding-left:2rem;
@@ -829,10 +836,14 @@ a.btn-dark {
     .pds-container-content { 
         width: 360px;
         padding-left:2rem;
-        padding-right:1rem;
+        padding-right:0.3rem;
     }
     .pds-iframe { 
         width: 95%;
+        
+    }
+    .pds-pdso { 
+        width: 270px;
         
     }
     .pds-background { 
@@ -945,9 +956,17 @@ a.btn-dark {
         width: 95%;
         
     }
+    
+    .pds-pdso { 
+        width: 250px;
+        
+    }
+
+
     .pds-background { 
         padding-right: 1rem; 
     }
+    
     .about-header { 
         grid-template-columns: 130px 60px;
         font-size: 1.0rem;

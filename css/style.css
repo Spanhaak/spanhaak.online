@@ -628,7 +628,16 @@ a.btn-dark {
 
 
 /* Small screens special settings - max width 414px */
-@media (max-width: 414px)  {
+@media (max-width: 414px) 
+ {
+    .pdl-container-content  { 
+        background-color: rgb(226, 226, 237);
+        padding-left: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     .no-link-icons {
         text-decoration: none;
         color: white;  
@@ -737,7 +746,10 @@ a.btn-dark {
     .aboutmeh3 {
         text-align: center;
     }
-
+    .pdl-content-leftso { 
+        padding-right:2rem;
+        color: #333;
+    }
     .aboutmetext {
         text-align: center;
         margin-right: 20px;
@@ -767,6 +779,10 @@ a.btn-dark {
     .pds-iframe { 
         width: 95%;
         
+    }
+    .pdl-content-leftso { 
+        padding-right:1rem;
+        color: #333;
     }
     .pds-container-content { 
         width: 375px;
@@ -1004,7 +1020,14 @@ a.btn-dark {
         width: 95%;
         
     }
-    
+    .pdl-content-leftso { 
+        padding-right:2rem;
+        color: #333;
+    }
+    .pdl-pdso { 
+        width: 250px;
+        
+    }
     .pds-pdso { 
         width: 250px;
         
